@@ -1,7 +1,7 @@
 {
   "name": "ubysz-nuxt",
   "version": "1.0.0",
-  "description": "Rafał Ubysz - Ultrasonografia",
+  "description": "Rafał Ubysz: doświadczony radiolog, specjalista USG. Badania dopplerowskie i USG w Warszawie. Najnowocześniejszy aparat do USG. Możliwość badań z refundacją NFZ.",
   "author": "Kamil Radziszewski",
   "private": true,
   "scripts": {

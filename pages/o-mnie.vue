@@ -1,3 +1,3 @@
 <template>
-  <h1>Ubysz Home</h1>
+  <h1>O mnie</h1>
 </template>
