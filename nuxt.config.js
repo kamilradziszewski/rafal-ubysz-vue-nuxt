@@ -23,7 +23,9 @@ module.exports = {
   /*
   ** Global CSS
   */
-  css: [],
+  css: [
+    'foundation-sites/dist/css/foundation.css',
+  ],
 
   /*
   ** Plugins to load before mounting the App
