@@ -1,7 +1,7 @@
 <template>
   <footer id="footer">
-    <div class="grid-x">
-      <div class="cell large-3 icon-map-column">
+    <div class="grid-x grid-container">
+      <div class="cell medium-3 icon-map-column">
         <svg class="icon-map">
           <use xlink:href="~/assets/image/icons-sprite.svg#icon-map" />
         </svg>

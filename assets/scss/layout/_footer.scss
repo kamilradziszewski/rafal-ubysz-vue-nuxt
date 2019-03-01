@@ -9,8 +9,9 @@ footer {
 
   .icon-map-column {
     display: none;
+    text-align: center;
 
-    @include breakpoint(1200px) {
+    @include breakpoint(1024px) {
       display: initial;
     }
   }
