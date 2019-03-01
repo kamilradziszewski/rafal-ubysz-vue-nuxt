@@ -25,6 +25,7 @@ module.exports = {
   */
   css: [
     'foundation-sites/dist/css/foundation.css',
+    '~/assets/scss/main.scss'
   ],
 
   /*

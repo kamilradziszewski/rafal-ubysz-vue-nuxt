@@ -1,0 +1,104 @@
+header {
+  background-color: $white;
+
+  .menu {
+    justify-content: center;
+
+    @include breakpoint(640px) {
+      justify-content: initial;
+    }
+
+    .nuxt-link-active {
+      color: $pink;
+      font-weight: bold;
+    }
+
+    a {
+      padding: 0.7rem;
+
+      @include breakpoint(480px) {
+        padding: 1rem;
+      }
+
+      @include breakpoint(1024px) {
+        padding: 1rem 1.5rem;
+      }
+    }
+  }
+
+  .top-bar {
+    background-color: $white;
+    color: $black;
+    padding: 1rem 0 0.75rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+
+    a {
+      color: $black;
+      font-size: 1.2rem;
+      transition: all 0.2s ease-in-out;
+
+      &::after {
+        content: none;
+      }
+
+      @include breakpoint(640px) {
+        font-size: 1.3rem;
+        font-weight: normal;
+      }
+
+      @include breakpoint(1024px) {
+        font-size: 1.5rem;
+      }
+    }
+
+    ul {
+      background-color: $white;
+    }
+  }
+
+  .top-bar-left {
+    padding-bottom: 0.3rem;
+
+    @include breakpoint(640px) {
+      padding-bottom: 0;
+    }
+  }
+
+  .top-bar-right {
+    a {
+      &:hover,
+      &:focus {
+        color: $pink;
+      }
+    }
+  }
+
+  .hdr-logo {
+    display: inline-block;
+    line-height: 0;
+  }
+
+  .logo {
+    height: 2.5rem;
+    width: 4.65rem;
+  }
+
+  .hdr-logo-link {
+    display: inline-block;
+    font-size: 0.69rem;
+    line-height: 1rem;
+    margin: 0;
+    padding-left: 1rem;
+    position: relative;
+    top: -0.25rem;
+
+    span {
+      display: block;
+
+      &:first-of-type {
+        font-size: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url('~assets/fonts/ProximaNova-Regular.woff2') format('woff2'), url('~assets/fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Rg';
+  src: local('Proxima Nova Bold'), local('ProximaNova-Bold'), url('~assets/fonts/ProximaNova-Bold.woff2') format('woff2'), url('~assets/fonts/ProximaNova-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  color: $black;
+  font-family: 'Proxima Nova Rg', sans-serif;
+}
+
+a {
+  color: $pink;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: darken($pink, 10);
+  }
+}
+
+li {
+  line-height: 1.8em;
+}
+
+.address-card {
+  text-transform: uppercase;
+
+  .webpage {
+    text-transform: lowercase;
+  }
+}

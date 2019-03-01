@@ -1,0 +1,52 @@
+.page-template-contact {
+  .contact-info {
+    padding-bottom: 2rem;
+    text-align: center;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: $black;
+      font-size: 1.1rem;
+      font-weight: normal;
+      margin-left: -1em;
+      transition: all 0.2s;
+
+      svg {
+        transition: all 0.2s;
+      }
+
+      &:hover,
+      &:focus {
+        color: $pink;
+
+        svg {
+          fill: $pink;
+        }
+      }
+
+      &:after {
+        content: "";
+        display: block;
+      }
+
+      &.email {
+        svg {
+          margin-right: 0.3rem;
+        }
+      }
+    }
+
+    svg {
+      height: 1.2em;
+      position: relative;
+      top: 0.2em;
+      width: 1.2em;
+    }
+  }
+}

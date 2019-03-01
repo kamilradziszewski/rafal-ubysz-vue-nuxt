@@ -1,0 +1,53 @@
+@mixin list-dot {
+  display: inline;
+  padding-left: 1em;
+  position: relative;
+
+  &::before {
+    background-color: #f61660;
+    border-radius: 50%;
+    content: "";
+    display: inline;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    top: 0.3em;
+    width: 6px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+  }
+}
+
+@mixin list-checkbox {
+  display: inline;
+  padding-left: 1.6em;
+  position: relative;
+
+  &::before {
+    background-image: url('~assets/image/icon-check-mark.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: inline;
+    height: 16px;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 16px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+  }
+}
+
+@mixin breakpoint($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}

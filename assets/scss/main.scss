@@ -1,0 +1,23 @@
+@import 'utils/variables';
+@import 'utils/mixins';
+
+@import 'base/global';
+@import 'base/typography';
+
+@import 'layout/content';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/404';
+@import 'pages/contact';
+
+@import 'components/address';
+@import 'components/googlemap';
+@import 'components/image';
+
+.page-enter-active, .page-leave-active {
+  transition: opacity .15s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
