@@ -1,6 +1,4 @@
-# ubysz-nuxt
-
-> Rafał Ubysz - Ultrasonografia
+# [Vue/Nuxt Frontend](http://nuxt.usg-rafalubysz.pl) for [„Rafał Ubysz – Ultrasonografia”](http://usg-rafalubysz.pl) project
 
 ## Build Setup
 
